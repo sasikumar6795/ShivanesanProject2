@@ -30,7 +30,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 .gallery {
-  height: 100%;
+  height: 70%;
   width: 100%;
   display: flex;
   margin: 5% auto 0;
@@ -45,7 +45,7 @@ body {
 }
 .image-box img {
   width: 100%;
-  height: 65%;
+  height: 70%;
   object-fit: cover;
   transition: .30s;
 }
