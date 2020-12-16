@@ -1,4 +1,5 @@
-.nav {
+
+.navbar {
   background-color: #3f3f3f;
   color: #d5d5d5;
 }
@@ -28,6 +29,8 @@ p {
     font-family: 'Tangerine', serif;
     font-size: 18px;
   }
+
+  
 .routerLink {
     font-size: 1.1em;
     
