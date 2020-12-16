@@ -22,8 +22,8 @@
 } */
 
 .gallery {
-  height: 100%;
-  width: 100%;
+  height: 60%;
+  width: 80%;
   display: flex;
   margin: 5% auto 0;
   box-sizing: border-box;
@@ -39,7 +39,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: .10s;
+  transition: .25s;
 }
 .image-box:hover {
   flex-basis: 50%;
@@ -48,7 +48,7 @@
   flex-basis: 50%;
 }
 .gallery:hover .active{
-    flex-basis: 10%;
+    flex-basis: 20%;
 }
 .image-box:nth-child(1):hover {
   flex-basis: 50%;
