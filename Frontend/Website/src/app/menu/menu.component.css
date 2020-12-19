@@ -4,11 +4,15 @@
   color: #d5d5d5;
 }
 
+.bg {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+}
 p {
   position:absolute;
   margin-top: -2.25rem;
   margin-left: 10rem;
-  color: black;
+  color: white;
   font-size: 20px;
   font-weight: 2.5rem;
   background-color: rgba(128, 128, 128, 0.651);
