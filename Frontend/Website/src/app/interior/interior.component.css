@@ -61,13 +61,15 @@ img {
 }  
 
 h4 {
+  padding-top: 4rem;
   margin-top: 2%;
   color: #3f3f3f;
   margin-bottom: 1.5%;  
 }
 
 .jumbotron {
+  padding: 4rem;
   background-color: #3f3f3f;
   color: #d5d5d5;
-  margin-top: 50%;
+  margin-bottom: 50%;
 }
