@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { readAndCompressImage } from 'browser-image-resizer';
+import { imageConfig } from '../util/config';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +8,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  carouselpictures : string ;
+  carouselpictures1 : string ;
+  carouselpictures2: string;
+  
+  constructor() {
+    this.carouselpictures="../assets/images/CIVIL/CLIENTS/MR.SASIKUMAR, GUDUVANCHERY.jpeg";
+    this.carouselpictures1="../assets/images/INTERIOR/MR.CHOCKALINGAM, DEFENCE COLONY/DINNING.jpeg";
+    this.carouselpictures2="../assets/images/CIVIL/CLIENTS/MR.BOOBALAN, KOSAPETTAI.jpeg";
+    
+   }
 
   ngOnInit() {
+    
   }
+
+  
+  
+  
 
 }
